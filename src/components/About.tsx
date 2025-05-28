@@ -1,4 +1,3 @@
-
 import { ExternalLink, Github, Linkedin, FileText, Award, Globe } from "lucide-react";
 
 const About = () => {
@@ -16,11 +15,12 @@ const About = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div className="space-y-6">
-            <div className="w-64 h-80 bg-gradient-to-br from-blue-400/20 to-emerald-400/20 rounded-lg flex items-center justify-center mx-auto lg:mx-0">
-              <div className="text-gray-400 text-center">
-                <div className="w-16 h-16 bg-blue-400 rounded-full mx-auto mb-4"></div>
-                <p>Professional Photo</p>
-              </div>
+            <div className="w-64 h-80 bg-gradient-to-br from-blue-400/20 to-emerald-400/20 rounded-lg flex items-center justify-center mx-auto lg:mx-0 overflow-hidden">
+              <img 
+                src="/lovable-uploads/ded20f0c-177b-4901-87d0-1fbe7012b6c3.png" 
+                alt="Sourabh Kumar" 
+                className="w-full h-full object-cover"
+              />
             </div>
 
             {/* Professional Links */}

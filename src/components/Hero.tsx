@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="relative">
             <div className="w-48 h-48 bg-gradient-to-br from-blue-400 to-emerald-400 rounded-full flex items-center justify-center text-6xl font-bold text-gray-900">
               <img 
-                src="/lovable-uploads/ffcdb755-73c3-42b7-a5b7-b05b8a61ad32.png" 
+                src="/lovable-uploads/ded20f0c-177b-4901-87d0-1fbe7012b6c3.png" 
                 alt="Sourabh Kumar" 
                 className="w-full h-full rounded-full object-cover border-4 border-blue-400/50"
               />
